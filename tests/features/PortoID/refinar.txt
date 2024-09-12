@@ -1,0 +1,31 @@
+Login
+Não haverá validação de CPF?
+No protótipo, a validação da Lexis está depois da senha. Vai mudar o fluxo?
+Qual o comportamento do botão "Libras"?
+Não tem como cadastrar usuário sem dados de contato (porém existe tela para esta situação)
+
+Ativação
+na tela de token, o Botão "Reenviar" ficará sempre habilitado?
+só a tela de token por sms irá ter loading? (e-mail não?)
+Bloqueio por token: Os telefones serão clicáveis?
+Criação de senha: Qual o erro será exibido se as senhas não coincidirem?
+
+Biometria:
+Não há erro de reconhecer a selfie pela web?
+O que acontece se eu já estiver no celular quando clico em "Faça pelo celular"?
+Qual o comportamento do botão "Cancelar" na tela de loading web?
+Não haverá limite de tentativas quando ocorrer falha ao validar a selfie?
+A tela de atualizar dados virá em branco?
+Sempre será necessário atualizar os dados e a senha após a biometria?
+Após a tela de sucesso, o direcionamento para a tela de atualização ocorrerá automaticamente?
+Ao finalizar o processo pelo celular, não haverá botão de fechar a tela de sucesso?
+Ao atualizar o cadastro e clicar em "Fazer login" o CPF virá preenchido? (se estiver marcado o "Lembrar usuário")
+no frame, a dica será dinâmica de acordo com a API?
+
+Cadastro
+Qual o comportamento do botão "Alterar dados de contato" na tela de token?
+Qual o gatilho dos erros de termo 1 e 2?
+
+Cenários de erro:
+    Alterar senha:
+        Qual o comportamento do botão "Voltar" no terceiro erro de token?

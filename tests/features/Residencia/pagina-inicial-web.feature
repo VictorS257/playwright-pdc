@@ -3,7 +3,7 @@ Funcionalidade: Validar Página inicial do Seguro Residência na versão web
 
     Contexto:Acesso o produto "Seguro Residência"
         Dado que o usuário se autenticou no PDC
-        E está utilizando a visualização web
+        E esta utilizando a visualização web
         E acessou o produto "Seguro Residência"
 
         Cenário:CT01 - Valido loading
@@ -13,16 +13,16 @@ Funcionalidade: Validar Página inicial do Seguro Residência na versão web
         Esquema do Cenário:CT02 - Valido funcionamento do header
             Quando o usuário navega entre as telas da aplicação
             Então deve ser sempre exibido o componente header contendo <icone>, <botao1>, <botao2>, <icone-interativo>
-            # Exemplos:
-            #     | icone               | botao1                  | botao2                               | icone-interativo |
-            #     | {icone-portoseguro} | "Dúvidas "+{icone-faq}  | {icone-menu-usuario}+{nome-usuario}  | {>}              |
+            Exemplos:
+                | icone               | botao1                  | botao2                               | icone-interativo |
+                | {icone-portoseguro} | "Dúvidas "+{icone-faq}  | {icone-menu-usuario}+{nome-usuario}  | {>}              |
 
         Esquema do Cenário:CT03 - Valido funcionamento do componente breadcrumb
             Quando o usuário navega entre as telas da aplicação
             Então abaixo do header deverá existir o componente breadcrumb contendo <botao>, <path>
-            # Exemplos:
-            #     | botao    | path   |
-            #     | {voltar} | {path} |
+            Exemplos:
+                | botao    | path   |
+                | {voltar} | {path} |
 
         Esquema do Cenário:CT04 - Valido exibição do Menu
             Quando o carregamento da página inicial ocorre com sucesso
